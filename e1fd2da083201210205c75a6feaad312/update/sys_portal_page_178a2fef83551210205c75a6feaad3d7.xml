@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2024-10-24 01:17:39">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles/>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 18:00:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>178a2fef83551210205c75a6feaad3d7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>PA Games - Second attempt</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Game Pass" source="x_668348_game_pass">e1fd2da083201210205c75a6feaad312</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_update_name>sys_portal_page_178a2fef83551210205c75a6feaad3d7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 18:02:21</sys_updated_on>
+        <title>PA Games - Second attempt</title>
+        <user/>
+        <view>games_-_new_tab_2</view>
+    </sys_portal_page>
+</record_update>

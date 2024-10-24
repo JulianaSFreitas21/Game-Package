@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_668348_game_pass_games</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Set number of Package Games</name>
+        <order>1</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+    //Get all games by package
+    var grGames = new GlideAggregate('x_668348_game_pass_games');
+    grGames.addAggregate('COUNT');
+    grGames.addQuery('package=', current.package);
+    grGames.query();
+
+    var countGames = 0;
+    while(grGames.next()) {
+        countGames = grGames.getAggregate('COUNT');
+        gs.addInfoMessage('Count: ' + countGames);
+       
+    }
+
+    // Fill the number of games field
+    var grPackage = new GlideRecord('x_668348_game_pass_package_games');
+    grPackage.addEncodedQuery('sys_idSTARTSWITH' + current.package);
+    grPackage.query();
+
+    while (grPackage.next()) {
+        grPackage.setValue('number_of_games', countGames);
+
+    }
+
+    // //Previous
+    // var grGamesPrev = new GlideAggregate('x_668348_game_pass_games');
+    // grGamesPrev.addAggregate('COUNT');
+    // grGamesPrev.addEncodedQuery('package=' + current.package);
+    // grGamesPrev.query();  
+
+    // var countGamesPrev = 0;
+    // while(grGamesPrev.next()){
+    // 	countGamesPrev = grGamesPrev.getAggregate('COUNT');
+    // }
+
+    // var grPackagePrev = new GlideRecord('x_668348_game_pass_package_games');
+    // grPackagePrev.addEncodedQuery('sys_idSTARTSWITH' + previous.package);
+    // grPackagePrev.query();  
+
+    // while(grPackagePrev.next()){
+    // 	grPackagePrev.setValue('number_of_games', countGamesPrev);
+    // }
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-10 16:15:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9bb5753983a01210205c75a6feaad33b</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>Set number of Package Games</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Game Pass" source="x_668348_game_pass">e1fd2da083201210205c75a6feaad312</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_update_name>sys_script_9bb5753983a01210205c75a6feaad33b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-10 18:42:48</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=9bb5753983a01210205c75a6feaad33b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Game Pass">e1fd2da083201210205c75a6feaad312</application>
+        <file_path/>
+        <instance_id>3f966f79dbc9cad4ebdd2a5913961957</instance_id>
+        <instance_name>dev247447</instance_name>
+        <name>sys_script_9bb5753983a01210205c75a6feaad33b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_668348_game_pass_games&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Set number of Package Games&lt;/name&gt;&lt;order&gt;1&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+    //Get all games by package
+    var grGames = new GlideAggregate('x_668348_game_pass_games');
+    grGames.addAggregate('COUNT');
+    grGames.addQuery('package=', current.package);
+    grGames.query();
+
+    var countGames = 0;
+    while(grGames.next()) {
+        countGames = grGames.getAggregate('COUNT');
+        gs.addInfoMessage('Count: ' + countGames);
+       
+    }
+
+    // Fill the number of games field
+    var grPackage = new GlideRecord('x_668348_game_pass_package_games');
+    grPackage.addEncodedQuery('sys_idSTARTSWITH' + current.package);
+    grPackage.query();
+
+    while (grPackage.next()) {
+        grPackage.setValue('number_of_games', countGames);
+
+    }
+
+    // //Previous
+    // var grGamesPrev = new GlideAggregate('x_668348_game_pass_games');
+    // grGamesPrev.addAggregate('COUNT');
+    // grGamesPrev.addEncodedQuery('package=' + current.package);
+    // grGamesPrev.query();  
+
+    // var countGamesPrev = 0;
+    // while(grGamesPrev.next()){
+    // 	countGamesPrev = grGamesPrev.getAggregate('COUNT');
+    // }
+
+    // var grPackagePrev = new GlideRecord('x_668348_game_pass_package_games');
+    // grPackagePrev.addEncodedQuery('sys_idSTARTSWITH' + previous.package);
+    // grPackagePrev.query();  
+
+    // while(grPackagePrev.next()){
+    // 	grPackagePrev.setValue('number_of_games', countGamesPrev);
+    // }
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-09-10 16:15:16&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;9bb5753983a01210205c75a6feaad33b&lt;/sys_id&gt;&lt;sys_mod_count&gt;25&lt;/sys_mod_count&gt;&lt;sys_name&gt;Set number of Package Games&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Game Pass" source="x_668348_game_pass"&gt;e1fd2da083201210205c75a6feaad312&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Game Pass"&gt;e1fd2da083201210205c75a6feaad312&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_9bb5753983a01210205c75a6feaad33b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-09-10 18:42:48&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=9bb5753983a01210205c75a6feaad33b"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1723589514</payload_hash>
+        <record_name>Set number of Package Games</record_name>
+        <reverted_from/>
+        <source>65fd2da083201210205c75a6feaad317</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-10 18:42:49</sys_created_on>
+        <sys_id>cfc792fd83241210205c75a6feaad394</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191dd3ed9050000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-10 18:42:49</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>47c792fdca241210d31bc26231496794</update_guid>
+        <update_guid_history>47c792fdca241210d31bc26231496794:1723589514,389716bd88241210b4890513d0e2b558:-265511199,fe77d6fde724121008f411683703630d:-522612729,ca6756fd3524121099d9f94614727f50:-265511199,b84792fd29241210924de8373597478a:-2096197842,64d69e7d262412101ef0700645f53697:1790800017,9b265e7d89241210354c8a2324b2b2d8:-162923821,2e65163dae24121002075324c4e4f9f2:-301894312,0bc4123de024121091f3ebfa27482869:1712497774,42849ef9942412102a132584fefa8548:1094710761,e7649ef9d3241210a6b193ef79f70c06:-747163146,dd345af9d7241210d7a014c30f1ee98e:-640990049,39639ab9f8241210b00c7ec5dd91e536:-165918234,6dd21e39a7241210add078be46ce60b2:798351950,07829a7907241210352a7c8caf870df2:1133765740,f862da39e8241210ce6546f98aff226d:-1013981921,a2a19a39ad241210500a4f7906d3dbea:-1832836279,77411639a52412105c529bfefc354310:2059855616,c9e0daf55c241210a90e4e10455815e7:-1219818927,d96e8a31ee241210c8a9759f6dbd11b0:370731810,fbad42357c241210feaf94c9b132ae15:2097678946,f86dc6f1e1241210c5f1a48763093e4f:-648223993,e1fa427167241210a29bdf87b4edfd12:-394189236,56ea027d2ae012109e11d37637e55386:-1613269485,89c50ef531e0121055f50721925097c1:-1846922159,f1067d799ea0121000a3ac1f4fba96bc:852862895</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-10 18:53:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>1a7ca7e9278344f28f6f35450f8353a9</sys_id>
+        <sys_metadata>9bb5753983a01210205c75a6feaad33b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set number of Package Games</sys_name>
+        <sys_package display_value="Game Pass" source="x_668348_game_pass">e1fd2da083201210205c75a6feaad312</sys_package>
+        <sys_parent display_value="Games">7a3e61e083201210205c75a6feaad336</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_scope_delete display_value="">57422b251c784308ae78ff703ba7f240</sys_scope_delete>
+        <sys_update_name>sys_script_9bb5753983a01210205c75a6feaad33b</sys_update_name>
+        <sys_update_version display_value="sys_script_9bb5753983a01210205c75a6feaad33b">cfc792fd83241210205c75a6feaad394</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-10 18:53:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

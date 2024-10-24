@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>briefcase</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description>Browse the catalog for services and items you need</short_description>
+        <size>md</size>
+        <sp_column display_value="1">c9f7d04b83f01210205c75a6feaad342</sp_column>
+        <sp_page display_value="sc_category">07261a2147132100ba13a5554ee49092</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 16:52:21</sys_created_on>
+        <sys_id>81f7d04b83f01210205c75a6feaad345</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Request Something</sys_name>
+        <sys_package display_value="Game Pass" source="x_668348_game_pass">e1fd2da083201210205c75a6feaad312</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_update_name>sp_instance_link_81f7d04b83f01210205c75a6feaad345</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 16:54:16</sys_updated_on>
+        <title>Request Something</title>
+        <type>page</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	},
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=81f7d04b83f01210205c75a6feaad345"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Game Pass">e1fd2da083201210205c75a6feaad312</application>
+        <file_path/>
+        <instance_id>3f966f79dbc9cad4ebdd2a5913961957</instance_id>
+        <instance_name>dev247447</instance_name>
+        <name>sp_instance_link_81f7d04b83f01210205c75a6feaad345</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;briefcase&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description&gt;Browse the catalog for services and items you need&lt;/short_description&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;c9f7d04b83f01210205c75a6feaad342&lt;/sp_column&gt;&lt;sp_page display_value="sc_category"&gt;07261a2147132100ba13a5554ee49092&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-09-26 16:52:21&lt;/sys_created_on&gt;&lt;sys_id&gt;81f7d04b83f01210205c75a6feaad345&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Request Something&lt;/sys_name&gt;&lt;sys_package display_value="Game Pass" source="x_668348_game_pass"&gt;e1fd2da083201210205c75a6feaad312&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Game Pass"&gt;e1fd2da083201210205c75a6feaad312&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_81f7d04b83f01210205c75a6feaad345&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-09-26 16:54:16&lt;/sys_updated_on&gt;&lt;title&gt;Request Something&lt;/title&gt;&lt;type&gt;page&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	},
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=81f7d04b83f01210205c75a6feaad345"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>601297120</payload_hash>
+        <record_name>Request Something</record_name>
+        <reverted_from/>
+        <source>65fd2da083201210205c75a6feaad317</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 16:54:16</sys_created_on>
+        <sys_id>81681c4b83f01210205c75a6feaad36c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1922f4137910000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 16:54:16</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>89681c4b71f0121098f435a68202646b</update_guid>
+        <update_guid_history>89681c4b71f0121098f435a68202646b:601297120,c9f7d04bcaf0121033d8450bf71a3553:-1503521697</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Request Something">4f789c4b83f01210205c75a6feaad3de</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 16:54:40</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>96b2045ccd204fc8bae7d7def6460440</sys_id>
+        <sys_metadata>81f7d04b83f01210205c75a6feaad345</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request Something</sys_name>
+        <sys_package display_value="Game Pass" source="x_668348_game_pass">e1fd2da083201210205c75a6feaad312</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_scope_delete display_value="">57422b251c784308ae78ff703ba7f240</sys_scope_delete>
+        <sys_update_name>sp_instance_link_81f7d04b83f01210205c75a6feaad345</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_81f7d04b83f01210205c75a6feaad345">81681c4b83f01210205c75a6feaad36c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 16:54:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

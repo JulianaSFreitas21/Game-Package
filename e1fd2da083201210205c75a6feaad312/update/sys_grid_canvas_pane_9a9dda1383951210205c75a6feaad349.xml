@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="Games - New Tab">349e95c783111210205c75a6feaad3ef</grid_canvas>
+        <height>14</height>
+        <portal_widget display_value="Created 2024-10-22 10:46:07">529dda1383951210205c75a6feaad347</portal_widget>
+        <posx>0</posx>
+        <posy>9</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 17:46:07</sys_created_on>
+        <sys_id>9a9dda1383951210205c75a6feaad349</sys_id>
+        <sys_mod_count>46</sys_mod_count>
+        <sys_name>349e95c783111210205c75a6feaad3ef</sys_name>
+        <sys_package display_value="Game Pass" source="x_668348_game_pass">e1fd2da083201210205c75a6feaad312</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_9a9dda1383951210205c75a6feaad349</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 17:18:40</sys_updated_on>
+        <width>12</width>
+    </sys_grid_canvas_pane>
+</record_update>

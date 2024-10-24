@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="DELETE">
+        <grid_canvas display_value="Games - New Tab">349e95c783111210205c75a6feaad3ef</grid_canvas>
+        <height>14</height>
+        <portal_widget display_value="Created 2024-10-22 10:20:48">5fc7965b83551210205c75a6feaad3a2</portal_widget>
+        <posx>0</posx>
+        <posy>22</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 17:20:48</sys_created_on>
+        <sys_id>d7c7965b83551210205c75a6feaad3a5</sys_id>
+        <sys_mod_count>63</sys_mod_count>
+        <sys_name>349e95c783111210205c75a6feaad3ef</sys_name>
+        <sys_package display_value="Game Pass" source="x_668348_game_pass">e1fd2da083201210205c75a6feaad312</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_d7c7965b83551210205c75a6feaad3a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 18:40:44</sys_updated_on>
+        <width>12</width>
+    </sys_grid_canvas_pane>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Game Pass">e1fd2da083201210205c75a6feaad312</application>
+        <file_path/>
+        <instance_id>3f966f79dbc9cad4ebdd2a5913961957</instance_id>
+        <instance_name>dev247447</instance_name>
+        <name>sys_grid_canvas_pane_d7c7965b83551210205c75a6feaad3a5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane"><sys_grid_canvas_pane action="INSERT_OR_UPDATE"><grid_canvas display_value="Games - New Tab">349e95c783111210205c75a6feaad3ef</grid_canvas><height>14</height><portal_widget display_value="Created 2024-10-22 10:20:48">5fc7965b83551210205c75a6feaad3a2</portal_widget><posx>0</posx><posy>22</posy><sys_class_name>sys_grid_canvas_pane</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-22 17:20:48</sys_created_on><sys_id>d7c7965b83551210205c75a6feaad3a5</sys_id><sys_mod_count>63</sys_mod_count><sys_name>349e95c783111210205c75a6feaad3ef</sys_name><sys_package display_value="Game Pass" source="x_668348_game_pass">e1fd2da083201210205c75a6feaad312</sys_package><sys_policy/><sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope><sys_update_name>sys_grid_canvas_pane_d7c7965b83551210205c75a6feaad3a5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-22 18:40:44</sys_updated_on><width>12</width></sys_grid_canvas_pane></record_update>]]></payload>
+        <payload_hash>1450384229</payload_hash>
+        <record_name>349e95c783111210205c75a6feaad3ef</record_name>
+        <reverted_from/>
+        <source>65fd2da083201210205c75a6feaad317</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 18:40:44</sys_created_on>
+        <sys_id>461aa21383d51210205c75a6feaad341</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192b58808730000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 18:40:44</sys_updated_on>
+        <type>Grid Canvas Pane</type>
+        <update_guid>4e1aa21373d512107007a17439331440</update_guid>
+        <update_guid_history>4e1aa21373d512107007a17439331440:1450384229,7d1a621345d5121019e42f2f342171e2:-413832602,e4e9aedf5b951210f8956a7d2872cf11:2016917863,8ed96edf7a9512104e4c980e6929221b:-413832602,f03962df279512108e1fb9e32f1f4352:1450384229,e12922df289512107577f86b9b43147d:-413832602,bea7a25f7f95121032cd6d9850db5544:1450384229,31a52e9bee9512100120fa79385a557d:-413832602,1265e69b59951210aaa7f2c2316af83f:1465694021,92d4ea5b2d9512103f252bf9649454d5:-965056444,00d4ea5b759512100c45af9bcc4f8057:1722168702,20e2aa97819512104afdfb9b5c6f269a:-708581763,e3d2a6d7e79512108b5a3931f3c30433:1450384229,82d262d719951210a1f4058240ac4606:-2036884544,09d266d7fd951210288b9ab4edc4d751:-965056444,4fb2aa9705951210ca4c5e52f346905e:-157357921,0b82e297d39512107b5d0841817163c4:-413832602,1e82ee97079512103efd7cf2c5de56a1:1465694021,c182ee9732951210d8c9e04fadddaf3e:137391240,1082ee979d95121082828f603da12129:2016917863,5272ea97fc95121024eb48b399b4a2fc:-398522810,95622e97ed9512109e2c36abebc128b1:152701032,8352ea97d8951210f84b70511ddda1f2:2016917863,1322e697cb951210517ca7e306f3b30f:-413832602,58212257cf951210c2b79e19d7f525c3:-965056444,c311e257279512100383e9e7db570577:-413832602,adf0ea17b795121005e196d23ac3b139:393865921,2ee0e6173e95121054e6dc478b12246d:2016917863,66d066171e95121018f0c7a236393bca:-678715904,94b06617aa951210e11b7a00ea3767fa:-194664504,dca0aa1734951210514b4e8de10e6906:-2039616027,20906617b39512109a364b08671710e5:-753709444,1180e617fe9512105f680e383b5f1168:1661731229,dfef1ad3859512103d40a363731ed107:-641491828,49efd6d3f0951210d1d024b744a9c469:2060392685,33df5ad3da9512106a1bd4bf2b43ace7:285902892,a1df1ad37495121007d05e5c7af87717:-2144847573,1a9d9a1386951210da6b0575c58354a8:-280630742,974d5a5b95551210e69d5ff3de2399cd:1471299789,7abc16dfcb55121012eb2933d2940d3f:80541905,2facd69b61551210882b3e138d13c742:1834808414,13ac56df965512109b9a1eddea91a511:1096707992,43ac16df475512102ebe7899d6e3899b:1418165210,b6ac9adf225512107153c29861eac705:80541905,a2ac1edf5a5512107ec3d4f3dda2917c:1834808414,d2ac16df895512107a19e2fb52355d3c:-752477437,685c16dfbf551210e5aa5a6147a97695:-1023873330,bd4c56df6f551210b7e874e957f07989:775920847,844cd69bc65512108bc8a481f901903f:1839380721,884c56dfb8551210a44966542c7aef0d:-1760207633,0c4c56df63551210999013bad277bf02:39586544,844c16dfc9551210d97d93eaedc5dc9e:1430344428,0c4c5a5b5f5512100107b8febe327abf:734965486,c04c16df4b5512101b5cb947fb088b92:-1064828691,f33c5a5b43551210405c81fc5ec8faa7:489578198,7b3cd29bda55121059e5ecae60130297:-1310215979,233cd69b5555121052c7ac703922413c:1184957140,ab3c569b1f551210dda72cceaf8fb675:-614837037,eb3c1a5b6b551210938dedaefdc5a6a3:1880336082,df3c5e5bcd55121098e6d3ea1e254393:80541905,873c165b655512102718e6e59047558f:-1719252272,a63c965b9c551210a6a98fe0acfbc3be:775920847,1e3c9a5b93551210fff66d85e1ef9415:-1023873330,9bc7965b5455121057b3c9c7a25865a6:1471299789</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 13:26:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_grid_canvas_pane">sys_grid_canvas_pane</sys_db_object>
+        <sys_id>ffae1fbdb48f4aa1af87bd2501efef01</sys_id>
+        <sys_metadata>d7c7965b83551210205c75a6feaad3a5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>349e95c783111210205c75a6feaad3ef</sys_name>
+        <sys_package display_value="Game Pass" source="x_668348_game_pass">e1fd2da083201210205c75a6feaad312</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_scope_delete display_value="">57422b251c784308ae78ff703ba7f240</sys_scope_delete>
+        <sys_update_name>sys_grid_canvas_pane_d7c7965b83551210205c75a6feaad3a5</sys_update_name>
+        <sys_update_version display_value="sys_grid_canvas_pane_d7c7965b83551210205c75a6feaad3a5">461aa21383d51210205c75a6feaad341</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 13:26:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

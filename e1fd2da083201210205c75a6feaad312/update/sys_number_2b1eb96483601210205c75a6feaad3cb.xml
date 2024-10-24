@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_668348_game_pass_package_request_historic">x_668348_game_pass_package_request_historic</category>
+        <maximum_digits>7</maximum_digits>
+        <number>0</number>
+        <prefix>PACHIS</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 19:38:13</sys_created_on>
+        <sys_id>2b1eb96483601210205c75a6feaad3cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PACHIS</sys_name>
+        <sys_package display_value="Game Pass" source="x_668348_game_pass">e1fd2da083201210205c75a6feaad312</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_update_name>sys_number_2b1eb96483601210205c75a6feaad3cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 19:38:13</sys_updated_on>
+    </sys_number>
+</record_update>

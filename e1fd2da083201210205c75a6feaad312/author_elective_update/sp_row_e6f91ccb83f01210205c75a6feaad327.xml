@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <semantic_tag/>
+        <sp_column/>
+        <sp_container display_value="Copy of Home Page (1) - Container 3">92f91ccb83f01210205c75a6feaad325</sp_container>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 17:01:11</sys_created_on>
+        <sys_id>e6f91ccb83f01210205c75a6feaad327</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Game Pass" source="x_668348_game_pass">e1fd2da083201210205c75a6feaad312</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_update_name>sp_row_e6f91ccb83f01210205c75a6feaad327</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 17:01:11</sys_updated_on>
+    </sp_row>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Game Pass">e1fd2da083201210205c75a6feaad312</application>
+        <file_path/>
+        <instance_id>3f966f79dbc9cad4ebdd2a5913961957</instance_id>
+        <instance_name>dev247447</instance_name>
+        <name>sp_row_e6f91ccb83f01210205c75a6feaad327</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><class_name/><order>1</order><semantic_tag/><sp_column/><sp_container display_value="Copy of Home Page (1) - Container 3">92f91ccb83f01210205c75a6feaad325</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-26 17:01:11</sys_created_on><sys_id>e6f91ccb83f01210205c75a6feaad327</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Game Pass" source="x_668348_game_pass">e1fd2da083201210205c75a6feaad312</sys_package><sys_policy/><sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope><sys_update_name>sp_row_e6f91ccb83f01210205c75a6feaad327</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-26 17:01:11</sys_updated_on></sp_row></record_update>]]></payload>
+        <payload_hash>-1399095090</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>65fd2da083201210205c75a6feaad317</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 17:01:11</sys_created_on>
+        <sys_id>26f91ccb83f01210205c75a6feaad329</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1922f478d780000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 17:01:11</sys_updated_on>
+        <type>Row</type>
+        <update_guid>6af91ccb28f012100286dca80492d828</update_guid>
+        <update_guid_history>6af91ccb28f012100286dca80492d828:-1399095090</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">3f81e40783341210205c75a6feaad324</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 17:34:19</sys_created_on>
+        <sys_db_object display_value="" name="sp_row">sp_row</sys_db_object>
+        <sys_id>73ccca8641eb4725b929174e9a694f49</sys_id>
+        <sys_metadata>e6f91ccb83f01210205c75a6feaad327</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Game Pass" source="x_668348_game_pass">e1fd2da083201210205c75a6feaad312</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_scope_delete display_value="">57422b251c784308ae78ff703ba7f240</sys_scope_delete>
+        <sys_update_name>sp_row_e6f91ccb83f01210205c75a6feaad327</sys_update_name>
+        <sys_update_version display_value="sp_row_e6f91ccb83f01210205c75a6feaad327">26f91ccb83f01210205c75a6feaad329</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 17:34:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

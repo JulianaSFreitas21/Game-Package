@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="eb507d6483201210205c75a6feaad34b" label="Company Games" max_length="40" name="x_668348_game_pass_company_games" type="collection">
+        <element label="Image" max_length="40" name="image" type="user_image"/>
+        <element display="true" label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>

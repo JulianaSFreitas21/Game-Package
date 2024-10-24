@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>New Package Request</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Package Request</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">da81893b8d020210d0ad51af4186635c</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 19:09:58</sys_created_on>
+        <sys_id>b5a735ac83201210205c75a6feaad330</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Package Request</sys_name>
+        <sys_package display_value="Game Pass" source="x_668348_game_pass">e1fd2da083201210205c75a6feaad312</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_update_name>sys_wizard_answer_b5a735ac83201210205c75a6feaad330</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 19:09:58</sys_updated_on>
+        <table/>
+        <target_url>x_668348_game_pass_package_request.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

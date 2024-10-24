@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="79a735ac83201210205c75a6feaad317" extends="task" label="Package Request" max_length="40" name="x_668348_game_pass_package_request" type="collection">
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Package" max_length="32" name="package" reference="x_668348_game_pass_package_games" type="reference"/>
+        <element label="Password" max_length="40" name="password" type="password"/>
+    </element>
+</database>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page display_value="Games - New Tab 2">d78a2fef83551210205c75a6feaad3d8</canvas_page>
+        <name>Games - Second attempt</name>
+        <page display_value="PA Games - Second attempt">178a2fef83551210205c75a6feaad3d7</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 18:00:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>138a2fef83551210205c75a6feaad3db</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Games - Second attempt</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Game Pass" source="x_668348_game_pass">e1fd2da083201210205c75a6feaad312</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_update_name>pa_tabs_138a2fef83551210205c75a6feaad3db</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 18:02:21</sys_updated_on>
+    </pa_tabs>
+</record_update>

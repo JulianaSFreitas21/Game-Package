@@ -1,0 +1,2616 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=1475076000,viewActivatedIn=naturalLanguage</attributes>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description/>
+        <internal_name>request_package_flow</internal_name>
+        <label_cache>[{"name":"23bfee91-e7e8-4652-8dc7-6d9b1e680a1f.record.package.sys_id","label":"7 - Update Record➛Package Request Record➛Package➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_668348_game_pass_package_games","column_name":"sys_id"},{"name":"a1edabb8-8390-4f88-a85b-5e9dcf4a0e1f.record.u_package_game.sys_id","label":"9 - Create Record➛User Record➛Package Game➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_668348_game_pass_package_games","column_name":"sys_id"},{"name":"eec9c2e8-2fe2-4b5d-b6be-4abeb437fad5.record.password","label":"4 - Update Record➛Package Request Record➛Password","reference":"","reference_display":"Password","type":"string","base_type":"string","parent_table_name":"x_668348_game_pass_package_request","column_name":"password"},{"name":"eec9c2e8-2fe2-4b5d-b6be-4abeb437fad5.record.package.sys_id","label":"4 - Update Record➛Package Request Record➛Package➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_668348_game_pass_package_games","column_name":"sys_id"},{"name":"eec9c2e8-2fe2-4b5d-b6be-4abeb437fad5.record.email","label":"4 - Update Record➛Package Request Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_668348_game_pass_package_request","column_name":"email"},{"name":"Created_1.current","label":"Trigger - Record Created➛Package Request Record","reference":"x_668348_game_pass_package_request","reference_display":"Package Request","type":"reference","base_type":"reference","attributes":{}},{"name":"{{static.1c590685c0a8018b2a473a7159ff5d9a}}","label":"RMA Approvers","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"634eadea-0037-495a-aff3-075569db559f.record","label":"1 - Update Record➛Package Request Record","reference":"x_668348_game_pass_package_request","reference_display":"Package Request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"78fafa2a-b13d-4fec-87e4-3efc61577aab.record","label":"6 - Update Record➛Package Request Record","reference":"x_668348_game_pass_package_request","reference_display":"Package Request Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.36c741fa731313005754660c4cf6a70d}}","label":"Openspace","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"eec9c2e8-2fe2-4b5d-b6be-4abeb437fad5.record.package.type","label":"4 - Update Record➛Package Request Record➛Package➛Type","reference":"","reference_display":"Type","type":"choice","base_type":"choice","parent_table_name":"x_668348_game_pass_package_games","column_name":"type","choices":[{"label":"Diamond","image":"","used":false,"reference":false,"rawLabel":"Diamond","selected":false,"missing":false,"value":"5","parameters":{"name":"x_668348_game_pass_package_games"}},{"label":"Gold","image":"","used":false,"reference":false,"rawLabel":"Gold","selected":false,"missing":false,"value":"4","parameters":{"name":"x_668348_game_pass_package_games"}},{"label":"Silver","image":"","used":false,"reference":false,"rawLabel":"Silver","selected":false,"missing":false,"value":"3","parameters":{"name":"x_668348_game_pass_package_games"}},{"label":"Bronze","image":"","used":false,"reference":false,"rawLabel":"Bronze","selected":false,"missing":false,"value":"2","parameters":{"name":"x_668348_game_pass_package_games"}},{"label":"Simple","image":"","used":false,"reference":false,"rawLabel":"Simple","selected":false,"missing":false,"value":"1","parameters":{"name":"x_668348_game_pass_package_games"}}]},{"name":"eec9c2e8-2fe2-4b5d-b6be-4abeb437fad5.record.name","label":"4 - Update Record➛Package Request Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_668348_game_pass_package_request","column_name":"name"},{"name":"eec9c2e8-2fe2-4b5d-b6be-4abeb437fad5.record.number","label":"4 - Update Record➛Package Request Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_668348_game_pass_package_request","column_name":"number"},{"name":"eec9c2e8-2fe2-4b5d-b6be-4abeb437fad5.record.sys_id","label":"4 - Update Record➛Package Request Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_668348_game_pass_package_request","column_name":"sys_id"},{"name":"a1edabb8-8390-4f88-a85b-5e9dcf4a0e1f.record.sys_id","label":"9 - Create Record➛User Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"23bfee91-e7e8-4652-8dc7-6d9b1e680a1f.record.email","label":"7 - Update Record➛Package Request Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_668348_game_pass_package_request","column_name":"email"},{"name":"23bfee91-e7e8-4652-8dc7-6d9b1e680a1f.record.name","label":"7 - Update Record➛Package Request Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_668348_game_pass_package_request","column_name":"name"},{"name":"23bfee91-e7e8-4652-8dc7-6d9b1e680a1f.record.sys_id","label":"7 - Update Record➛Package Request Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_668348_game_pass_package_request","column_name":"sys_id"},{"name":"a1edabb8-8390-4f88-a85b-5e9dcf4a0e1f.record.u_package_game","label":"9 - Create Record➛User Record➛Package Game","reference":"x_668348_game_pass_package_games","reference_display":"Package Games","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"u_package_game"},{"name":"f8d70d57-a129-46db-84af-323000470813.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>7b8debf683301210205c75a6feaad30b</master_snapshot>
+        <name>Request Package Flow</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>c99d2ff683301210205c75a6feaad331</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:25:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>83335cad83a01210205c75a6feaad387</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>Request Package Flow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Game Pass" source="x_668348_game_pass">e1fd2da083201210205c75a6feaad312</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_update_name>sys_hub_flow_83335cad83a01210205c75a6feaad387</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 20:16:58</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=83335cad83a01210205c75a6feaad387"/>
+    <sys_variable_value action="delete_multiple" query="document_key=83335cad83a01210205c75a6feaad387"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_668348_game_pass_package_request">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c99d2ff683301210205c75a6feaad331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:13</sys_updated_on>
+        <table>x_668348_game_pass_package_request</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>83335cad83a01210205c75a6feaad387</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 16:09:53</sys_created_on>
+        <sys_id>8f3e4c0f83b01210205c75a6feaad3a5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 16:09:53</sys_updated_on>
+        <trigger display_value="">c99d2ff683301210205c75a6feaad331</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=83335cad83a01210205c75a6feaad387^sys_idNOT IN8f3e4c0f83b01210205c75a6feaad3a5"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=83335cad83a01210205c75a6feaad387^sys_idNOT IN23f510a183e01210205c75a6feaad38a"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Request Package Flow">83335cad83a01210205c75a6feaad387</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:37:12</sys_created_on>
+        <sys_id>23f510a183e01210205c75a6feaad38a</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 20:16:57</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=23f510a183e01210205c75a6feaad38a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>23f510a183e01210205c75a6feaad38a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:37:12</sys_created_on>
+        <sys_id>63f510a183e01210205c75a6feaad38b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 14:37:12</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>23f510a183e01210205c75a6feaad38a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:37:12</sys_created_on>
+        <sys_id>6bf510a183e01210205c75a6feaad38b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 14:37:12</sys_updated_on>
+        <value>x_668348_game_pass_package_request</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=83335cad83a01210205c75a6feaad387"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=83335cad83a01210205c75a6feaad387^sys_idNOT IN83335cad83a01210205c75a6feaad389"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>83335cad83a01210205c75a6feaad387</id>
+        <name>Request Package Flow</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:25:09</sys_created_on>
+        <sys_id>83335cad83a01210205c75a6feaad389</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 14:25:09</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=83335cad83a01210205c75a6feaad389"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=83335cad83a01210205c75a6feaad387^sys_idNOT IN2bf510a183e01210205c75a6feaad385,abf5142183e01210205c75a6feaad3fe"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Request Package Flow">83335cad83a01210205c75a6feaad387</model>
+        <model_id>83335cad83a01210205c75a6feaad387</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_83335cad83a01210205c75a6feaad387</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:37:12</sys_created_on>
+        <sys_id>2bf510a183e01210205c75a6feaad385</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 20:16:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2bf510a183e01210205c75a6feaad385"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Request Package Flow">83335cad83a01210205c75a6feaad387</model>
+        <model_id>83335cad83a01210205c75a6feaad387</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_83335cad83a01210205c75a6feaad387</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:37:12</sys_created_on>
+        <sys_id>abf5142183e01210205c75a6feaad3fe</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 20:16:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=abf5142183e01210205c75a6feaad3fe"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=83335cad83a01210205c75a6feaad387"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=83335cad83a01210205c75a6feaad387"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=83335cad83a01210205c75a6feaad387^sys_idNOT IN01fc742a832c5210205c75a6feaad35e,0fae237a83301210205c75a6feaad3c1,2ef690e183e01210205c75a6feaad3b5,8cd9f4a983641210205c75a6feaad3f1,ab0a7066832c5210205c75a6feaad37b,acd7502583e01210205c75a6feaad3ef,b073c0db83851210205c75a6feaad3eb,b972fc6183641210205c75a6feaad3b5,e2f690e183e01210205c75a6feaad3ad,e6f690e183e01210205c75a6feaad3bd"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Request Package Flow">83335cad83a01210205c75a6feaad387</flow>
+        <order>8</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 20:01:21</sys_created_on>
+        <sys_id>01fc742a832c5210205c75a6feaad35e</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 20:16:57</sys_updated_on>
+        <ui_id>23bfee91-e7e8-4652-8dc7-6d9b1e680a1f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=01fc742a832c5210205c75a6feaad35e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>01fc742a832c5210205c75a6feaad35e</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 20:01:21</sys_created_on>
+        <sys_id>41fc742a832c5210205c75a6feaad360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 20:01:21</sys_updated_on>
+        <value>x_668348_game_pass_package_request</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>01fc742a832c5210205c75a6feaad35e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 20:01:21</sys_created_on>
+        <sys_id>8dfc742a832c5210205c75a6feaad35f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 20:01:21</sys_updated_on>
+        <value>state=4^work_notes=Sua solicitação foi e está em andamanto</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=01fc742a832c5210205c75a6feaad35e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>01fc742a832c5210205c75a6feaad35e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 20:01:21</sys_created_on>
+        <sys_id>0dfc742a832c5210205c75a6feaad35f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 20:01:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{634eadea-0037-495a-aff3-075569db559f.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>01fc742a832c5210205c75a6feaad35e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 20:01:21</sys_created_on>
+        <sys_id>85fc742a832c5210205c75a6feaad35f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 20:01:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>01fc742a832c5210205c75a6feaad35e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 20:01:21</sys_created_on>
+        <sys_id>49fc742a832c5210205c75a6feaad35f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 20:01:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=01fc742a832c5210205c75a6feaad35e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=01fc742a832c5210205c75a6feaad35e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Request Package Flow">83335cad83a01210205c75a6feaad387</flow>
+        <order>11</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:51:59</sys_created_on>
+        <sys_id>0fae237a83301210205c75a6feaad3c1</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 20:16:57</sys_updated_on>
+        <ui_id>65c0bb1e-3286-424f-a33a-e9c35c58fef9</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0fae237a83301210205c75a6feaad3c1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0fae237a83301210205c75a6feaad3c1</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:51:59</sys_created_on>
+        <sys_id>0bae237a83301210205c75a6feaad3c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:51:59</sys_updated_on>
+        <value>x_668348_game_pass_package_request</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0fae237a83301210205c75a6feaad3c1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:51:59</sys_created_on>
+        <sys_id>47ae237a83301210205c75a6feaad3c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:51:59</sys_updated_on>
+        <value>state=7^work_notes=Sua solicitação foi concluída com sucesso.</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0fae237a83301210205c75a6feaad3c1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>0fae237a83301210205c75a6feaad3c1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:51:59</sys_created_on>
+        <sys_id>c3ae237a83301210205c75a6feaad3c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:51:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{634eadea-0037-495a-aff3-075569db559f.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>0fae237a83301210205c75a6feaad3c1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:51:59</sys_created_on>
+        <sys_id>4fae237a83301210205c75a6feaad3c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:51:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>0fae237a83301210205c75a6feaad3c1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:51:59</sys_created_on>
+        <sys_id>03ae237a83301210205c75a6feaad3c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:51:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0fae237a83301210205c75a6feaad3c1"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0fae237a83301210205c75a6feaad3c1"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Request Package Flow">83335cad83a01210205c75a6feaad387</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:41:30</sys_created_on>
+        <sys_id>2ef690e183e01210205c75a6feaad3b5</sys_id>
+        <sys_mod_count>42</sys_mod_count>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 20:16:57</sys_updated_on>
+        <ui_id>f8d70d57-a129-46db-84af-323000470813</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2ef690e183e01210205c75a6feaad3b5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2ef690e183e01210205c75a6feaad3b5</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:41:31</sys_created_on>
+        <sys_id>22f690e183e01210205c75a6feaad3b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 14:41:31</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2ef690e183e01210205c75a6feaad3b5</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:41:31</sys_created_on>
+        <sys_id>6ef690e183e01210205c75a6feaad3b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 14:41:31</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="Journal Field">c1f2e9920b10030085c083eb37673ae3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2ef690e183e01210205c75a6feaad3b5</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:41:31</sys_created_on>
+        <sys_id>aaf690e183e01210205c75a6feaad3b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 14:41:31</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="Approval Field">01f2e9920b10030085c083eb37673ad8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2ef690e183e01210205c75a6feaad3b5</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:41:31</sys_created_on>
+        <sys_id>e2f690e183e01210205c75a6feaad3b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 14:41:31</sys_updated_on>
+        <value>x_668348_game_pass_package_request</value>
+        <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2ef690e183e01210205c75a6feaad3b5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>2ef690e183e01210205c75a6feaad3b5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:41:31</sys_created_on>
+        <sys_id>66f690e183e01210205c75a6feaad3b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 14:41:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>ApprovesAnyG[{{static.1c590685c0a8018b2a473a7159ff5d9a}}]</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>2ef690e183e01210205c75a6feaad3b5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:41:31</sys_created_on>
+        <sys_id>6af690e183e01210205c75a6feaad3b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 14:41:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>2ef690e183e01210205c75a6feaad3b5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:41:31</sys_created_on>
+        <sys_id>a2f690e183e01210205c75a6feaad3b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 14:41:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>journal_field</field>
+        <id>2ef690e183e01210205c75a6feaad3b5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:41:31</sys_created_on>
+        <sys_id>2ef690e183e01210205c75a6feaad3b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 14:41:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>2ef690e183e01210205c75a6feaad3b5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:41:31</sys_created_on>
+        <sys_id>eef690e183e01210205c75a6feaad3b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 14:41:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>2ef690e183e01210205c75a6feaad3b5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:41:31</sys_created_on>
+        <sys_id>2af690e183e01210205c75a6feaad3b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 14:41:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2ef690e183e01210205c75a6feaad3b5"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2ef690e183e01210205c75a6feaad3b5"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Request Package Flow">83335cad83a01210205c75a6feaad387</flow>
+        <order>12</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 17:13:42</sys_created_on>
+        <sys_id>8cd9f4a983641210205c75a6feaad3f1</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 20:16:57</sys_updated_on>
+        <ui_id>a14f6872-6330-4b5f-9915-1ed89674e351</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8cd9f4a983641210205c75a6feaad3f1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8cd9f4a983641210205c75a6feaad3f1</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 17:13:42</sys_created_on>
+        <sys_id>00d9f4a983641210205c75a6feaad3f4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 20:01:21</sys_updated_on>
+        <value>x_668348_game_pass_package_request_historic</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8cd9f4a983641210205c75a6feaad3f1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>8cd9f4a983641210205c75a6feaad3f1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 17:13:42</sys_created_on>
+        <sys_id>84d9f4a983641210205c75a6feaad3f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 17:13:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>8cd9f4a983641210205c75a6feaad3f1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 17:13:42</sys_created_on>
+        <sys_id>8cd9f4a983641210205c75a6feaad3f3</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:46:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>package={{a1edabb8-8390-4f88-a85b-5e9dcf4a0e1f.record.u_package_game.sys_id}}^request={{23bfee91-e7e8-4652-8dc7-6d9b1e680a1f.record.sys_id}}^user={{a1edabb8-8390-4f88-a85b-5e9dcf4a0e1f.record.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8cd9f4a983641210205c75a6feaad3f1"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8cd9f4a983641210205c75a6feaad3f1"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Request Package Flow">83335cad83a01210205c75a6feaad387</flow>
+        <order>7</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 19:48:41</sys_created_on>
+        <sys_id>ab0a7066832c5210205c75a6feaad37b</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 20:16:57</sys_updated_on>
+        <ui_id>6ec8efc9-be86-410b-8c52-c11fa815084b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ab0a7066832c5210205c75a6feaad37b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ab0a7066832c5210205c75a6feaad37b</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 19:48:41</sys_created_on>
+        <sys_id>2b0a7066832c5210205c75a6feaad37e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 19:48:41</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="Conditions">49ce8a4187120010663ca1bb36cb0bef</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ab0a7066832c5210205c75a6feaad37b</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 19:48:41</sys_created_on>
+        <sys_id>630a7066832c5210205c75a6feaad37f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 19:48:41</sys_updated_on>
+        <value>x_668348_game_pass_package_request</value>
+        <variable display_value="Table">45ce8a4187120010663ca1bb36cb0bea</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ab0a7066832c5210205c75a6feaad37b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>ab0a7066832c5210205c75a6feaad37b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 19:48:41</sys_created_on>
+        <sys_id>e30a7066832c5210205c75a6feaad37e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 19:48:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>ab0a7066832c5210205c75a6feaad37b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 19:48:41</sys_created_on>
+        <sys_id>eb0a7066832c5210205c75a6feaad37d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 19:48:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value>{{78fafa2a-b13d-4fec-87e4-3efc61577aab.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>ab0a7066832c5210205c75a6feaad37b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 19:48:41</sys_created_on>
+        <sys_id>a70a7066832c5210205c75a6feaad37e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 19:48:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ab0a7066832c5210205c75a6feaad37b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ab0a7066832c5210205c75a6feaad37b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Request Package Flow">83335cad83a01210205c75a6feaad387</flow>
+        <order>9</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:45:11</sys_created_on>
+        <sys_id>acd7502583e01210205c75a6feaad3ef</sys_id>
+        <sys_mod_count>40</sys_mod_count>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 20:16:57</sys_updated_on>
+        <ui_id>d272169f-ee1c-4b78-bc7d-ed18ecd10bce</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=acd7502583e01210205c75a6feaad3ef"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>acd7502583e01210205c75a6feaad3ef</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 19:48:41</sys_created_on>
+        <sys_id>2b0a7066832c5210205c75a6feaad382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 19:48:41</sys_updated_on>
+        <value>Game Pass: Pacote  contratado</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>acd7502583e01210205c75a6feaad3ef</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-12 19:48:41</sys_created_on>
+        <sys_id>670a7066832c5210205c75a6feaad382</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 20:01:21</sys_updated_on>
+        <value/>
+        <variable display_value="To">59806bf4a70323008299b39f087901da</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>acd7502583e01210205c75a6feaad3ef</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 15:05:00</sys_created_on>
+        <sys_id>725c106983e01210205c75a6feaad3bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 15:05:00</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=acd7502583e01210205c75a6feaad3ef"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>acd7502583e01210205c75a6feaad3ef</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 15:05:00</sys_created_on>
+        <sys_id>3e5c106983e01210205c75a6feaad3bb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 20:01:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Ol&amp;aacute;&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:3108285a-088b-4cb8-ae1c-675a46fe2535}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:3108285a-088b-4cb8-ae1c-675a46fe2535}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="4 - Update Record &amp;gt; Package Request Record &amp;gt; Name"&gt;&lt;span class="pill-start"&gt;4 - Update Record&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_3108285a-088b-4cb8-ae1c-675a46fe2535" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;!&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Estamos confirmando a contrata&amp;ccedil;&amp;atilde;o do Pacote &lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:53dd50b3-7ec2-464d-bfe7-91d3d07f1b2b}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="5 &amp;gt; Package Request Record &amp;gt; Package &amp;gt; Type"&gt;&lt;span class="pill-start"&gt;5&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Type&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_53dd50b3-7ec2-464d-bfe7-91d3d07f1b2b" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;. Esta mensagem contem informa&amp;ccedil;&amp;otilde;es confid&amp;ecirc;ncias.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Os jogos que est&amp;atilde;o no pacote contratado, ser&amp;atilde;o adicionado na sua lista de jogos de cada empresa de acordo com o email informado.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;strong&gt;IMPORTANTE&lt;/strong&gt;: Caso o email informado seja diferente do email das empresa, favor entrar em contato com cada empresa, informando o n&amp;uacute;mero da solicita&amp;ccedil;&amp;atilde;o &lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:b2f59e43-99bf-4ca4-ac73-03dafaf0db1e}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="5 &amp;gt; Package Request Record &amp;gt; Number"&gt;&lt;span class="pill-start"&gt;5&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Number&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_b2f59e43-99bf-4ca4-ac73-03dafaf0db1e" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt; e anexar este email.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>acd7502583e01210205c75a6feaad3ef</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 15:05:00</sys_created_on>
+        <sys_id>fe5c106983e01210205c75a6feaad3bb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 19:48:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>acd7502583e01210205c75a6feaad3ef</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:45:11</sys_created_on>
+        <sys_id>ecd7502583e01210205c75a6feaad3f1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 20:01:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value> {{23bfee91-e7e8-4652-8dc7-6d9b1e680a1f.record.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=acd7502583e01210205c75a6feaad3ef"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=acd7502583e01210205c75a6feaad3ef"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Request Package Flow">83335cad83a01210205c75a6feaad387</flow>
+        <order>4</order>
+        <parent_ui_id>5dbef689-5c30-482c-aa78-8f5a99449327</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 20:16:57</sys_created_on>
+        <sys_id>b073c0db83851210205c75a6feaad3eb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 20:16:57</sys_updated_on>
+        <ui_id>3471271d-2360-43fe-9288-559cc765a910</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b073c0db83851210205c75a6feaad3eb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b073c0db83851210205c75a6feaad3eb</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 20:16:57</sys_created_on>
+        <sys_id>0573c0db83851210205c75a6feaad3ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 20:16:57</sys_updated_on>
+        <value>work_notes=Necessita de um anexo</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b073c0db83851210205c75a6feaad3eb</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 20:16:57</sys_created_on>
+        <sys_id>4d73c0db83851210205c75a6feaad3ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 20:16:57</sys_updated_on>
+        <value>x_668348_game_pass_package_request</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b073c0db83851210205c75a6feaad3eb"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>b073c0db83851210205c75a6feaad3eb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 20:16:57</sys_created_on>
+        <sys_id>8173c0db83851210205c75a6feaad3ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 20:16:57</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{634eadea-0037-495a-aff3-075569db559f.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>b073c0db83851210205c75a6feaad3eb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 20:16:57</sys_created_on>
+        <sys_id>3c73c0db83851210205c75a6feaad3ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 20:16:57</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>b073c0db83851210205c75a6feaad3eb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 20:16:57</sys_created_on>
+        <sys_id>cd73c0db83851210205c75a6feaad3ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 20:16:57</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b073c0db83851210205c75a6feaad3eb"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b073c0db83851210205c75a6feaad3eb"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Request Package Flow">83335cad83a01210205c75a6feaad387</flow>
+        <order>10</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 16:41:36</sys_created_on>
+        <sys_id>b972fc6183641210205c75a6feaad3b5</sys_id>
+        <sys_mod_count>36</sys_mod_count>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 20:16:57</sys_updated_on>
+        <ui_id>a1edabb8-8390-4f88-a85b-5e9dcf4a0e1f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b972fc6183641210205c75a6feaad3b5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b972fc6183641210205c75a6feaad3b5</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 16:41:36</sys_created_on>
+        <sys_id>7d72fc6183641210205c75a6feaad3b7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-12 20:01:21</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b972fc6183641210205c75a6feaad3b5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>b972fc6183641210205c75a6feaad3b5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 16:41:36</sys_created_on>
+        <sys_id>f172fc6183641210205c75a6feaad3b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 16:41:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>b972fc6183641210205c75a6feaad3b5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 16:41:36</sys_created_on>
+        <sys_id>f972fc6183641210205c75a6feaad3b7</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 16:08:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>first_name={{23bfee91-e7e8-4652-8dc7-6d9b1e680a1f.record.name}}^u_package_game={{23bfee91-e7e8-4652-8dc7-6d9b1e680a1f.record.package.sys_id}}^email={{23bfee91-e7e8-4652-8dc7-6d9b1e680a1f.record.email}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b972fc6183641210205c75a6feaad3b5"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b972fc6183641210205c75a6feaad3b5"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Request Package Flow">83335cad83a01210205c75a6feaad387</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:41:30</sys_created_on>
+        <sys_id>e2f690e183e01210205c75a6feaad3ad</sys_id>
+        <sys_mod_count>42</sys_mod_count>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 20:16:57</sys_updated_on>
+        <ui_id>634eadea-0037-495a-aff3-075569db559f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e2f690e183e01210205c75a6feaad3ad"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e2f690e183e01210205c75a6feaad3ad</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:41:30</sys_created_on>
+        <sys_id>66f690e183e01210205c75a6feaad3b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 14:41:30</sys_updated_on>
+        <value>x_668348_game_pass_package_request</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e2f690e183e01210205c75a6feaad3ad</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:41:30</sys_created_on>
+        <sys_id>a2f690e183e01210205c75a6feaad3b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 14:41:30</sys_updated_on>
+        <value>state=1^assignment_group={"display":"RMA Approvers","value":"1c590685c0a8018b2a473a7159ff5d9a","sys_id":"1c590685c0a8018b2a473a7159ff5d9a"}^work_notes=Sua solicitação está aberta e está em aprovação do grupo RMA Approvers</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e2f690e183e01210205c75a6feaad3ad"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>e2f690e183e01210205c75a6feaad3ad</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:41:30</sys_created_on>
+        <sys_id>22f690e183e01210205c75a6feaad3b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 14:41:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>e2f690e183e01210205c75a6feaad3ad</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:41:30</sys_created_on>
+        <sys_id>66f690e183e01210205c75a6feaad3af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 14:41:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>e2f690e183e01210205c75a6feaad3ad</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:41:30</sys_created_on>
+        <sys_id>6ef690e183e01210205c75a6feaad3af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 14:41:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e2f690e183e01210205c75a6feaad3ad"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e2f690e183e01210205c75a6feaad3ad"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Request Package Flow">83335cad83a01210205c75a6feaad387</flow>
+        <order>6</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:41:31</sys_created_on>
+        <sys_id>e6f690e183e01210205c75a6feaad3bd</sys_id>
+        <sys_mod_count>42</sys_mod_count>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 20:16:57</sys_updated_on>
+        <ui_id>78fafa2a-b13d-4fec-87e4-3efc61577aab</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e6f690e183e01210205c75a6feaad3bd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e6f690e183e01210205c75a6feaad3bd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:41:31</sys_created_on>
+        <sys_id>22f690e183e01210205c75a6feaad3bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 14:41:31</sys_updated_on>
+        <value>state=2^assignment_group={"display":"Openspace","value":"36c741fa731313005754660c4cf6a70d","sys_id":"36c741fa731313005754660c4cf6a70d"}^work_notes=Sua solicitação foi aprovada e está em validação de pagamento</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e6f690e183e01210205c75a6feaad3bd</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:41:31</sys_created_on>
+        <sys_id>e2f690e183e01210205c75a6feaad3bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 14:41:31</sys_updated_on>
+        <value>x_668348_game_pass_package_request</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e6f690e183e01210205c75a6feaad3bd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>e6f690e183e01210205c75a6feaad3bd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:41:31</sys_created_on>
+        <sys_id>aef690e183e01210205c75a6feaad3be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 14:41:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{634eadea-0037-495a-aff3-075569db559f.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>e6f690e183e01210205c75a6feaad3bd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:41:31</sys_created_on>
+        <sys_id>2af690e183e01210205c75a6feaad3be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 14:41:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>e6f690e183e01210205c75a6feaad3bd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:41:31</sys_created_on>
+        <sys_id>eaf690e183e01210205c75a6feaad3be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 14:41:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e6f690e183e01210205c75a6feaad3bd"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e6f690e183e01210205c75a6feaad3bd"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=83335cad83a01210205c75a6feaad387"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=83335cad83a01210205c75a6feaad387^sys_idNOT IN3c73c0db83851210205c75a6feaad3e2"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">3c73c0db83851210205c75a6feaad3e1</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Request Package Flow">83335cad83a01210205c75a6feaad387</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Do the following until">eaeb040687210300e6c2c88fc0e3ec89</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 20:16:57</sys_created_on>
+        <sys_id>3c73c0db83851210205c75a6feaad3e2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 20:16:57</sys_updated_on>
+        <ui_id>5dbef689-5c30-482c-aa78-8f5a99449327</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=3c73c0db83851210205c75a6feaad3e2"/>
+    <sys_element_mapping action="delete_multiple" query="id=3c73c0db83851210205c75a6feaad3e2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>3c73c0db83851210205c75a6feaad3e2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 20:16:57</sys_created_on>
+        <sys_id>3873c0db83851210205c75a6feaad3e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 20:16:57</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_eaeb040687210300e6c2c88fc0e3ec89</table>
+        <value>{{f8d70d57-a129-46db-84af-323000470813.approval_state}}=approved</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=3c73c0db83851210205c75a6feaad3e2"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3c73c0db83851210205c75a6feaad3e2"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=83335cad83a01210205c75a6feaad387^sys_idNOT INba5c106983e01210205c75a6feaad3bd,f65c106983e01210205c75a6feaad3bd,fe5c106983e01210205c75a6feaad3bc"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>83335cad83a01210205c75a6feaad387</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{eec9c2e8-2fe2-4b5d-b6be-4abeb437fad5.record.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 15:05:00</sys_created_on>
+        <sys_id>ba5c106983e01210205c75a6feaad3bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 15:05:00</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>b2f59e43-99bf-4ca4-ac73-03dafaf0db1e</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>83335cad83a01210205c75a6feaad387</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{eec9c2e8-2fe2-4b5d-b6be-4abeb437fad5.record.package.type}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 15:05:00</sys_created_on>
+        <sys_id>f65c106983e01210205c75a6feaad3bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 15:05:00</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>53dd50b3-7ec2-464d-bfe7-91d3d07f1b2b</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>83335cad83a01210205c75a6feaad387</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{eec9c2e8-2fe2-4b5d-b6be-4abeb437fad5.record.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 15:05:00</sys_created_on>
+        <sys_id>fe5c106983e01210205c75a6feaad3bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 15:05:00</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>3108285a-088b-4cb8-ae1c-675a46fe2535</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=83335cad83a01210205c75a6feaad387"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_83335cad83a01210205c75a6feaad387^sys_idNOT IN6bf5542183e01210205c75a6feaad304,ebf510a183e01210205c75a6feaad387"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_83335cad83a01210205c75a6feaad387</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:37:12</sys_created_on>
+        <sys_id>6bf5542183e01210205c75a6feaad304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Game Pass" source="x_668348_game_pass">e1fd2da083201210205c75a6feaad312</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 14:37:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_83335cad83a01210205c75a6feaad387</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:37:12</sys_created_on>
+        <sys_id>ebf510a183e01210205c75a6feaad387</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Game Pass" source="x_668348_game_pass">e1fd2da083201210205c75a6feaad312</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 14:37:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_83335cad83a01210205c75a6feaad387"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_83335cad83a01210205c75a6feaad387"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_83335cad83a01210205c75a6feaad387"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name/>
+        <description/>
+        <internal_name>request_package_flow</internal_name>
+        <label_cache>[{"name":"a1edabb8-8390-4f88-a85b-5e9dcf4a0e1f.record.u_package_game","label":"7 - Create Record➛User Record➛Package Game","reference":"x_668348_game_pass_package_games","reference_display":"Package Games","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"u_package_game"},{"name":"23bfee91-e7e8-4652-8dc7-6d9b1e680a1f.record.sys_id","label":"5 - Update Record➛Package Request Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_668348_game_pass_package_request","column_name":"sys_id"},{"name":"23bfee91-e7e8-4652-8dc7-6d9b1e680a1f.record.name","label":"5 - Update Record➛Package Request Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_668348_game_pass_package_request","column_name":"name"},{"name":"23bfee91-e7e8-4652-8dc7-6d9b1e680a1f.record.email","label":"5 - Update Record➛Package Request Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_668348_game_pass_package_request","column_name":"email"},{"name":"a1edabb8-8390-4f88-a85b-5e9dcf4a0e1f.record.sys_id","label":"7 - Create Record➛User Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"eec9c2e8-2fe2-4b5d-b6be-4abeb437fad5.record.sys_id","label":"4 - Update Record➛Package Request Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_668348_game_pass_package_request","column_name":"sys_id"},{"name":"eec9c2e8-2fe2-4b5d-b6be-4abeb437fad5.record.number","label":"4 - Update Record➛Package Request Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_668348_game_pass_package_request","column_name":"number"},{"name":"eec9c2e8-2fe2-4b5d-b6be-4abeb437fad5.record.name","label":"4 - Update Record➛Package Request Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_668348_game_pass_package_request","column_name":"name"},{"name":"eec9c2e8-2fe2-4b5d-b6be-4abeb437fad5.record.package.type","label":"4 - Update Record➛Package Request Record➛Package➛Type","reference":"","reference_display":"Type","type":"choice","base_type":"choice","parent_table_name":"x_668348_game_pass_package_games","column_name":"type","choices":[{"label":"Diamond","image":"","used":false,"rawLabel":"Diamond","selected":false,"missing":false,"reference":false,"value":"diamond","parameters":{"name":"x_668348_game_pass_package_games"}},{"label":"Gold","image":"","used":false,"rawLabel":"Gold","selected":false,"missing":false,"reference":false,"value":"gold","parameters":{"name":"x_668348_game_pass_package_games"}},{"label":"Silver","image":"","used":false,"rawLabel":"Silver","selected":false,"missing":false,"reference":false,"value":"silver","parameters":{"name":"x_668348_game_pass_package_games"}},{"label":"Bronze","image":"","used":false,"rawLabel":"Bronze","selected":false,"missing":false,"reference":false,"value":"bronze","parameters":{"name":"x_668348_game_pass_package_games"}},{"label":"Simple","image":"","used":false,"rawLabel":"Simple","selected":false,"missing":false,"reference":false,"value":"simple","parameters":{"name":"x_668348_game_pass_package_games"}}]},{"name":"{{static.36c741fa731313005754660c4cf6a70d}}","label":"Openspace","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"78fafa2a-b13d-4fec-87e4-3efc61577aab.record","label":"3 - Update Record➛Package Request Record","reference":"x_668348_game_pass_package_request","reference_display":"Package Request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"634eadea-0037-495a-aff3-075569db559f.record","label":"1 - Update Record➛Package Request Record","reference":"x_668348_game_pass_package_request","reference_display":"Package Request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.1c590685c0a8018b2a473a7159ff5d9a}}","label":"RMA Approvers","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"Created_1.current","label":"Trigger - Record Created➛Package Request Record","reference":"x_668348_game_pass_package_request","reference_display":"Package Request","type":"reference","base_type":"reference","attributes":{}},{"name":"eec9c2e8-2fe2-4b5d-b6be-4abeb437fad5.record.email","label":"4 - Update Record➛Package Request Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_668348_game_pass_package_request","column_name":"email"},{"name":"eec9c2e8-2fe2-4b5d-b6be-4abeb437fad5.record.package.sys_id","label":"4 - Update Record➛Package Request Record➛Package➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_668348_game_pass_package_games","column_name":"sys_id"},{"name":"eec9c2e8-2fe2-4b5d-b6be-4abeb437fad5.record.password","label":"4 - Update Record➛Package Request Record➛Password","reference":"","reference_display":"Password","type":"string","base_type":"string","parent_table_name":"x_668348_game_pass_package_request","column_name":"password"},{"name":"a1edabb8-8390-4f88-a85b-5e9dcf4a0e1f.record.u_package_game.sys_id","label":"7 - Create Record➛User Record➛Package Game➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_668348_game_pass_package_games","column_name":"sys_id"},{"name":"23bfee91-e7e8-4652-8dc7-6d9b1e680a1f.record.package.sys_id","label":"5 - Update Record➛Package Request Record➛Package➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_668348_game_pass_package_games","column_name":"sys_id"}]</label_cache>
+        <master>true</master>
+        <name>Request Package Flow</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Request Package Flow">83335cad83a01210205c75a6feaad387</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7b8debf683301210205c75a6feaad30b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 16:09:51</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=7b8debf683301210205c75a6feaad30b"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7b8debf683301210205c75a6feaad30b"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=7b8debf683301210205c75a6feaad30b^sys_idNOT IN949debf683301210205c75a6feaad385"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Request Package Flow">7b8debf683301210205c75a6feaad30b</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:10</sys_created_on>
+        <sys_id>949debf683301210205c75a6feaad385</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 16:09:53</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=949debf683301210205c75a6feaad385"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>949debf683301210205c75a6feaad385</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:10</sys_created_on>
+        <sys_id>109debf683301210205c75a6feaad387</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:10</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>949debf683301210205c75a6feaad385</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:10</sys_created_on>
+        <sys_id>d09debf683301210205c75a6feaad387</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:10</sys_updated_on>
+        <value>x_668348_game_pass_package_request</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=7b8debf683301210205c75a6feaad30b"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=7b8debf683301210205c75a6feaad30b^sys_idNOT IN7f8debf683301210205c75a6feaad30c"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>7b8debf683301210205c75a6feaad30b</id>
+        <name>Request Package Flow</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:07</sys_created_on>
+        <sys_id>7f8debf683301210205c75a6feaad30c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:07</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=7f8debf683301210205c75a6feaad30c"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=7b8debf683301210205c75a6feaad30b^sys_idNOT IN089debf683301210205c75a6feaad339,b38debf683301210205c75a6feaad30e"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Request Package Flow">7b8debf683301210205c75a6feaad30b</model>
+        <model_id>7b8debf683301210205c75a6feaad30b</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_7b8debf683301210205c75a6feaad30b</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:08</sys_created_on>
+        <sys_id>089debf683301210205c75a6feaad339</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 16:09:50</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=089debf683301210205c75a6feaad339"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Request Package Flow">7b8debf683301210205c75a6feaad30b</model>
+        <model_id>7b8debf683301210205c75a6feaad30b</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_7b8debf683301210205c75a6feaad30b</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:07</sys_created_on>
+        <sys_id>b38debf683301210205c75a6feaad30e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 16:09:50</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b38debf683301210205c75a6feaad30e"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=7b8debf683301210205c75a6feaad30b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7b8debf683301210205c75a6feaad30b"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=7b8debf683301210205c75a6feaad30b^sys_idNOT IN189debf683301210205c75a6feaad37e,294c373a83701210205c75a6feaad3a3,509debf683301210205c75a6feaad376,5c9debf683301210205c75a6feaad364,889debf683301210205c75a6feaad349,889debf683301210205c75a6feaad35b,8c9debf683301210205c75a6feaad353,989debf683301210205c75a6feaad36b,9c9debf683301210205c75a6feaad383"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Request Package Flow">7b8debf683301210205c75a6feaad30b</flow>
+        <order>7</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:09</sys_created_on>
+        <sys_id>189debf683301210205c75a6feaad37e</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 16:09:51</sys_updated_on>
+        <ui_id>a1edabb8-8390-4f88-a85b-5e9dcf4a0e1f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=189debf683301210205c75a6feaad37e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>189debf683301210205c75a6feaad37e</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:09</sys_created_on>
+        <sys_id>1c9debf683301210205c75a6feaad37f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:09</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=189debf683301210205c75a6feaad37e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>189debf683301210205c75a6feaad37e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:09</sys_created_on>
+        <sys_id>d49debf683301210205c75a6feaad37f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>189debf683301210205c75a6feaad37e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:09</sys_created_on>
+        <sys_id>989debf683301210205c75a6feaad37f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 16:09:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>first_name={{23bfee91-e7e8-4652-8dc7-6d9b1e680a1f.record.name}}^u_package_game={{23bfee91-e7e8-4652-8dc7-6d9b1e680a1f.record.package.sys_id}}^email={{23bfee91-e7e8-4652-8dc7-6d9b1e680a1f.record.email}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=189debf683301210205c75a6feaad37e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=189debf683301210205c75a6feaad37e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Request Package Flow">7b8debf683301210205c75a6feaad30b</flow>
+        <order>8</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 14:51:25</sys_created_on>
+        <sys_id>294c373a83701210205c75a6feaad3a3</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 16:09:51</sys_updated_on>
+        <ui_id>65c0bb1e-3286-424f-a33a-e9c35c58fef9</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=294c373a83701210205c75a6feaad3a3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>294c373a83701210205c75a6feaad3a3</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 14:51:25</sys_created_on>
+        <sys_id>354c373a83701210205c75a6feaad3a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 14:51:25</sys_updated_on>
+        <value>x_668348_game_pass_package_request</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>294c373a83701210205c75a6feaad3a3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 14:51:25</sys_created_on>
+        <sys_id>6d4c373a83701210205c75a6feaad3a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 14:51:25</sys_updated_on>
+        <value>state=7^work_notes=Sua solicitação foi concluída com sucesso.</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=294c373a83701210205c75a6feaad3a3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>294c373a83701210205c75a6feaad3a3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 14:51:25</sys_created_on>
+        <sys_id>e94c373a83701210205c75a6feaad3a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 14:51:25</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{634eadea-0037-495a-aff3-075569db559f.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>294c373a83701210205c75a6feaad3a3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 14:51:25</sys_created_on>
+        <sys_id>614c373a83701210205c75a6feaad3a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 14:51:25</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>294c373a83701210205c75a6feaad3a3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 14:51:25</sys_created_on>
+        <sys_id>294c373a83701210205c75a6feaad3a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 14:51:25</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=294c373a83701210205c75a6feaad3a3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=294c373a83701210205c75a6feaad3a3"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Request Package Flow">7b8debf683301210205c75a6feaad30b</flow>
+        <order>6</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:09</sys_created_on>
+        <sys_id>509debf683301210205c75a6feaad376</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 16:09:51</sys_updated_on>
+        <ui_id>d272169f-ee1c-4b78-bc7d-ed18ecd10bce</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=509debf683301210205c75a6feaad376"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>509debf683301210205c75a6feaad376</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:09</sys_created_on>
+        <sys_id>1c9debf683301210205c75a6feaad378</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:09</sys_updated_on>
+        <value>Game Pass: Pacote  contratado</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>509debf683301210205c75a6feaad376</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:09</sys_created_on>
+        <sys_id>589debf683301210205c75a6feaad378</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:09</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=509debf683301210205c75a6feaad376"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>509debf683301210205c75a6feaad376</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:09</sys_created_on>
+        <sys_id>149debf683301210205c75a6feaad378</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Ol&amp;aacute;&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:3108285a-088b-4cb8-ae1c-675a46fe2535}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:3108285a-088b-4cb8-ae1c-675a46fe2535}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="4 - Update Record &amp;gt; Package Request Record &amp;gt; Name"&gt;&lt;span class="pill-start"&gt;4 - Update Record&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_3108285a-088b-4cb8-ae1c-675a46fe2535" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;!&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Estamos confirmando a contrata&amp;ccedil;&amp;atilde;o do Pacote &lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:53dd50b3-7ec2-464d-bfe7-91d3d07f1b2b}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="5 &amp;gt; Package Request Record &amp;gt; Package &amp;gt; Type"&gt;&lt;span class="pill-start"&gt;5&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Type&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_53dd50b3-7ec2-464d-bfe7-91d3d07f1b2b" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;. Esta mensagem contem informa&amp;ccedil;&amp;otilde;es confid&amp;ecirc;ncias.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Os jogos que est&amp;atilde;o no pacote contratado, ser&amp;atilde;o adicionado na sua lista de jogos de cada empresa de acordo com o email informado.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;strong&gt;IMPORTANTE&lt;/strong&gt;: Caso o email informado seja diferente do email das empresa, favor entrar em contato com cada empresa, informando o n&amp;uacute;mero da solicita&amp;ccedil;&amp;atilde;o &lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:b2f59e43-99bf-4ca4-ac73-03dafaf0db1e}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="5 &amp;gt; Package Request Record &amp;gt; Number"&gt;&lt;span class="pill-start"&gt;5&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Number&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_b2f59e43-99bf-4ca4-ac73-03dafaf0db1e" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt; e anexar este email.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>509debf683301210205c75a6feaad376</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:09</sys_created_on>
+        <sys_id>d49debf683301210205c75a6feaad378</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>509debf683301210205c75a6feaad376</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:09</sys_created_on>
+        <sys_id>509debf683301210205c75a6feaad378</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value> {{23bfee91-e7e8-4652-8dc7-6d9b1e680a1f.record.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=509debf683301210205c75a6feaad376"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=509debf683301210205c75a6feaad376"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Request Package Flow">7b8debf683301210205c75a6feaad30b</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:09</sys_created_on>
+        <sys_id>5c9debf683301210205c75a6feaad364</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 16:09:51</sys_updated_on>
+        <ui_id>6ec8efc9-be86-410b-8c52-c11fa815084b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5c9debf683301210205c75a6feaad364"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5c9debf683301210205c75a6feaad364</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:09</sys_created_on>
+        <sys_id>149debf683301210205c75a6feaad367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:09</sys_updated_on>
+        <value>x_668348_game_pass_package_request</value>
+        <variable display_value="Table">45ce8a4187120010663ca1bb36cb0bea</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5c9debf683301210205c75a6feaad364</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:09</sys_created_on>
+        <sys_id>509debf683301210205c75a6feaad367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:09</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="Conditions">49ce8a4187120010663ca1bb36cb0bef</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5c9debf683301210205c75a6feaad364"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>5c9debf683301210205c75a6feaad364</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:09</sys_created_on>
+        <sys_id>1c9debf683301210205c75a6feaad366</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>5c9debf683301210205c75a6feaad364</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:09</sys_created_on>
+        <sys_id>589debf683301210205c75a6feaad366</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value>{{78fafa2a-b13d-4fec-87e4-3efc61577aab.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>5c9debf683301210205c75a6feaad364</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:09</sys_created_on>
+        <sys_id>dc9debf683301210205c75a6feaad366</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5c9debf683301210205c75a6feaad364"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5c9debf683301210205c75a6feaad364"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Request Package Flow">7b8debf683301210205c75a6feaad30b</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:08</sys_created_on>
+        <sys_id>889debf683301210205c75a6feaad349</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 16:09:50</sys_updated_on>
+        <ui_id>634eadea-0037-495a-aff3-075569db559f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=889debf683301210205c75a6feaad349"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>889debf683301210205c75a6feaad349</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:08</sys_created_on>
+        <sys_id>009debf683301210205c75a6feaad34c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:08</sys_updated_on>
+        <value>state=1^assignment_group={"display":"RMA Approvers","value":"1c590685c0a8018b2a473a7159ff5d9a","sys_id":"1c590685c0a8018b2a473a7159ff5d9a"}^work_notes=Sua solicitação está aberta e está em aprovação do grupo RMA Approvers</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>889debf683301210205c75a6feaad349</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:08</sys_created_on>
+        <sys_id>089debf683301210205c75a6feaad34c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:08</sys_updated_on>
+        <value>x_668348_game_pass_package_request</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=889debf683301210205c75a6feaad349"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>889debf683301210205c75a6feaad349</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:08</sys_created_on>
+        <sys_id>8c9debf683301210205c75a6feaad34b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>889debf683301210205c75a6feaad349</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:08</sys_created_on>
+        <sys_id>049debf683301210205c75a6feaad34b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>889debf683301210205c75a6feaad349</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:08</sys_created_on>
+        <sys_id>c89debf683301210205c75a6feaad34b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=889debf683301210205c75a6feaad349"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=889debf683301210205c75a6feaad349"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Request Package Flow">7b8debf683301210205c75a6feaad30b</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:09</sys_created_on>
+        <sys_id>889debf683301210205c75a6feaad35b</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 16:09:50</sys_updated_on>
+        <ui_id>78fafa2a-b13d-4fec-87e4-3efc61577aab</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=889debf683301210205c75a6feaad35b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>889debf683301210205c75a6feaad35b</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:09</sys_created_on>
+        <sys_id>849debf683301210205c75a6feaad35d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:09</sys_updated_on>
+        <value>x_668348_game_pass_package_request</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>889debf683301210205c75a6feaad35b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:09</sys_created_on>
+        <sys_id>c09debf683301210205c75a6feaad35d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:09</sys_updated_on>
+        <value>state=2^assignment_group={"display":"Openspace","value":"36c741fa731313005754660c4cf6a70d","sys_id":"36c741fa731313005754660c4cf6a70d"}^work_notes=Sua solicitação foi aprovada e está em validação de pagamento</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=889debf683301210205c75a6feaad35b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>889debf683301210205c75a6feaad35b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:09</sys_created_on>
+        <sys_id>409debf683301210205c75a6feaad35d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{634eadea-0037-495a-aff3-075569db559f.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>889debf683301210205c75a6feaad35b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:09</sys_created_on>
+        <sys_id>c89debf683301210205c75a6feaad35c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>889debf683301210205c75a6feaad35b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:09</sys_created_on>
+        <sys_id>8c9debf683301210205c75a6feaad35c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=889debf683301210205c75a6feaad35b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=889debf683301210205c75a6feaad35b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Request Package Flow">7b8debf683301210205c75a6feaad30b</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:09</sys_created_on>
+        <sys_id>8c9debf683301210205c75a6feaad353</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 16:09:50</sys_updated_on>
+        <ui_id>f8d70d57-a129-46db-84af-323000470813</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8c9debf683301210205c75a6feaad353"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8c9debf683301210205c75a6feaad353</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:09</sys_created_on>
+        <sys_id>049debf683301210205c75a6feaad357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:09</sys_updated_on>
+        <value>x_668348_game_pass_package_request</value>
+        <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8c9debf683301210205c75a6feaad353</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:09</sys_created_on>
+        <sys_id>409debf683301210205c75a6feaad357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:09</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8c9debf683301210205c75a6feaad353</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:09</sys_created_on>
+        <sys_id>8c9debf683301210205c75a6feaad356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:09</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="Journal Field">c1f2e9920b10030085c083eb37673ae3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8c9debf683301210205c75a6feaad353</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:09</sys_created_on>
+        <sys_id>c89debf683301210205c75a6feaad356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:09</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="Approval Field">01f2e9920b10030085c083eb37673ad8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8c9debf683301210205c75a6feaad353"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>8c9debf683301210205c75a6feaad353</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:09</sys_created_on>
+        <sys_id>849debf683301210205c75a6feaad356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>ApprovesAnyG[{{static.1c590685c0a8018b2a473a7159ff5d9a}}]</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>8c9debf683301210205c75a6feaad353</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:09</sys_created_on>
+        <sys_id>889debf683301210205c75a6feaad355</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>8c9debf683301210205c75a6feaad353</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:09</sys_created_on>
+        <sys_id>c09debf683301210205c75a6feaad356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>journal_field</field>
+        <id>8c9debf683301210205c75a6feaad353</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:09</sys_created_on>
+        <sys_id>4c9debf683301210205c75a6feaad355</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>8c9debf683301210205c75a6feaad353</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:09</sys_created_on>
+        <sys_id>009debf683301210205c75a6feaad356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>8c9debf683301210205c75a6feaad353</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:09</sys_created_on>
+        <sys_id>489debf683301210205c75a6feaad356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8c9debf683301210205c75a6feaad353"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8c9debf683301210205c75a6feaad353"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Request Package Flow">7b8debf683301210205c75a6feaad30b</flow>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:09</sys_created_on>
+        <sys_id>989debf683301210205c75a6feaad36b</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 16:09:51</sys_updated_on>
+        <ui_id>23bfee91-e7e8-4652-8dc7-6d9b1e680a1f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=989debf683301210205c75a6feaad36b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>989debf683301210205c75a6feaad36b</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:09</sys_created_on>
+        <sys_id>949debf683301210205c75a6feaad36d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:09</sys_updated_on>
+        <value>x_668348_game_pass_package_request</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>989debf683301210205c75a6feaad36b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:09</sys_created_on>
+        <sys_id>d09debf683301210205c75a6feaad36d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:09</sys_updated_on>
+        <value>state=4^work_notes=Sua solicitação foi e está em andamanto</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=989debf683301210205c75a6feaad36b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>989debf683301210205c75a6feaad36b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:09</sys_created_on>
+        <sys_id>509debf683301210205c75a6feaad36d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{634eadea-0037-495a-aff3-075569db559f.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>989debf683301210205c75a6feaad36b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:09</sys_created_on>
+        <sys_id>d89debf683301210205c75a6feaad36c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>989debf683301210205c75a6feaad36b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:09</sys_created_on>
+        <sys_id>9c9debf683301210205c75a6feaad36c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=989debf683301210205c75a6feaad36b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=989debf683301210205c75a6feaad36b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Request Package Flow">7b8debf683301210205c75a6feaad30b</flow>
+        <order>9</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:10</sys_created_on>
+        <sys_id>9c9debf683301210205c75a6feaad383</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 16:09:51</sys_updated_on>
+        <ui_id>a14f6872-6330-4b5f-9915-1ed89674e351</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9c9debf683301210205c75a6feaad383"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9c9debf683301210205c75a6feaad383</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:10</sys_created_on>
+        <sys_id>909debf683301210205c75a6feaad385</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:10</sys_updated_on>
+        <value>x_668348_game_pass_package_request_historic</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9c9debf683301210205c75a6feaad383"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>9c9debf683301210205c75a6feaad383</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:10</sys_created_on>
+        <sys_id>5c9debf683301210205c75a6feaad384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>9c9debf683301210205c75a6feaad383</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:10</sys_created_on>
+        <sys_id>109debf683301210205c75a6feaad385</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>package={{a1edabb8-8390-4f88-a85b-5e9dcf4a0e1f.record.u_package_game.sys_id}}^request={{23bfee91-e7e8-4652-8dc7-6d9b1e680a1f.record.sys_id}}^user={{a1edabb8-8390-4f88-a85b-5e9dcf4a0e1f.record.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9c9debf683301210205c75a6feaad383"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9c9debf683301210205c75a6feaad383"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=7b8debf683301210205c75a6feaad30b"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=7b8debf683301210205c75a6feaad30b"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=7b8debf683301210205c75a6feaad30b^sys_idNOT IN189debf683301210205c75a6feaad387,509debf683301210205c75a6feaad388,dc9debf683301210205c75a6feaad387"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>7b8debf683301210205c75a6feaad30b</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{eec9c2e8-2fe2-4b5d-b6be-4abeb437fad5.record.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:10</sys_created_on>
+        <sys_id>189debf683301210205c75a6feaad387</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:10</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>3108285a-088b-4cb8-ae1c-675a46fe2535</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>7b8debf683301210205c75a6feaad30b</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{eec9c2e8-2fe2-4b5d-b6be-4abeb437fad5.record.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:10</sys_created_on>
+        <sys_id>509debf683301210205c75a6feaad388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:10</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>b2f59e43-99bf-4ca4-ac73-03dafaf0db1e</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>7b8debf683301210205c75a6feaad30b</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{eec9c2e8-2fe2-4b5d-b6be-4abeb437fad5.record.package.type}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:10</sys_created_on>
+        <sys_id>dc9debf683301210205c75a6feaad387</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:10</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>53dd50b3-7ec2-464d-bfe7-91d3d07f1b2b</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=7b8debf683301210205c75a6feaad30b"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_7b8debf683301210205c75a6feaad30b^sys_idNOT IN0c9debf683301210205c75a6feaad33d,489debf683301210205c75a6feaad335"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_7b8debf683301210205c75a6feaad30b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:08</sys_created_on>
+        <sys_id>0c9debf683301210205c75a6feaad33d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Game Pass" source="x_668348_game_pass">e1fd2da083201210205c75a6feaad312</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:08</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_7b8debf683301210205c75a6feaad30b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:08</sys_created_on>
+        <sys_id>489debf683301210205c75a6feaad335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Game Pass" source="x_668348_game_pass">e1fd2da083201210205c75a6feaad312</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 13:47:08</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_7b8debf683301210205c75a6feaad30b"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_7b8debf683301210205c75a6feaad30b"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_7b8debf683301210205c75a6feaad30b"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>83335cad83a01210205c75a6feaad387</sys_id>
+        <latest_snapshot>7b8debf683301210205c75a6feaad30b</latest_snapshot>
+        <compiler_build>glide-vancouver-07-06-2023__patch9-05-02-2024_05-14-2024_2249.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=83335cad83a01210205c75a6feaad387^sys_idNOT IN0d9d2ff683301210205c75a6feaad333"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"0d9d2ff683301210205c75a6feaad333","name":"plan","plan_signature":null}}</plan>
+        <plan_id>83335cad83a01210205c75a6feaad387</plan_id>
+        <snapshot>7e5f048f83b01210205c75a6feaad3f9</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 13:47:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0d9d2ff683301210205c75a6feaad333</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 16:09:53</sys_updated_on>
+        <trigger display_value="">c99d2ff683301210205c75a6feaad331</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=83335cad83a01210205c75a6feaad387"/>
+</record_update>
