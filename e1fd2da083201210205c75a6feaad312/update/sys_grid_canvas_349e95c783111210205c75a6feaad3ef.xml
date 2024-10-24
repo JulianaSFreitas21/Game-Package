@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas">
+    <sys_grid_canvas action="INSERT_OR_UPDATE">
+        <legacy_page display_value="PA Games - First attempt">b89ed58783111210205c75a6feaad393</legacy_page>
+        <name>Games - New Tab</name>
+        <sys_class_name>sys_grid_canvas</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 18:32:18</sys_created_on>
+        <sys_id>349e95c783111210205c75a6feaad3ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Games - New Tab</sys_name>
+        <sys_package display_value="Game Pass" source="x_668348_game_pass">e1fd2da083201210205c75a6feaad312</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_update_name>sys_grid_canvas_349e95c783111210205c75a6feaad3ef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 18:32:18</sys_updated_on>
+    </sys_grid_canvas>
+</record_update>

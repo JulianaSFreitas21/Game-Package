@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_668348_game_pass_games" version="2" view="RPTe65e598783111210205c75a6feaad34b">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_668348_game_pass_games" element="NULL" name="x_668348_game_pass_games" parent="NULL" relationship="NULL" sys_domain="global" view="f417965b83551210205c75a6feaad346">675b636383951210205c75a6feaad3ee</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-23 18:04:24</sys_created_on>
+            <sys_id>635b636383951210205c75a6feaad3ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-23 18:04:24</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="x_668348_game_pass_games" element="NULL" name="x_668348_game_pass_games" parent="NULL" relationship="NULL" sys_domain="global" view="f417965b83551210205c75a6feaad346">675b636383951210205c75a6feaad3ee</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-23 18:04:24</sys_created_on>
+            <sys_id>e75b636383951210205c75a6feaad3ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-23 18:04:24</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>classification</element>
+            <list_id display_value="x_668348_game_pass_games" element="NULL" name="x_668348_game_pass_games" parent="NULL" relationship="NULL" sys_domain="global" view="f417965b83551210205c75a6feaad346">675b636383951210205c75a6feaad3ee</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-23 18:04:24</sys_created_on>
+            <sys_id>6b5b636383951210205c75a6feaad3ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-23 18:04:24</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>description</element>
+            <list_id display_value="x_668348_game_pass_games" element="NULL" name="x_668348_game_pass_games" parent="NULL" relationship="NULL" sys_domain="global" view="f417965b83551210205c75a6feaad346">675b636383951210205c75a6feaad3ee</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-23 18:04:24</sys_created_on>
+            <sys_id>eb5b636383951210205c75a6feaad3ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-23 18:04:24</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>package</element>
+            <list_id display_value="x_668348_game_pass_games" element="NULL" name="x_668348_game_pass_games" parent="NULL" relationship="NULL" sys_domain="global" view="f417965b83551210205c75a6feaad346">675b636383951210205c75a6feaad3ee</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-23 18:04:24</sys_created_on>
+            <sys_id>6f5b636383951210205c75a6feaad3ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-23 18:04:24</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>company</element>
+            <list_id display_value="x_668348_game_pass_games" element="NULL" name="x_668348_game_pass_games" parent="NULL" relationship="NULL" sys_domain="global" view="f417965b83551210205c75a6feaad346">675b636383951210205c75a6feaad3ee</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-23 18:04:24</sys_created_on>
+            <sys_id>ef5b636383951210205c75a6feaad3ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-23 18:04:24</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_668348_game_pass_games</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-23 18:04:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>675b636383951210205c75a6feaad3ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_668348_game_pass_games</sys_name>
+            <sys_package display_value="Game Pass" source="x_668348_game_pass">e1fd2da083201210205c75a6feaad312</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+            <sys_update_name>sys_ui_list_x_668348_game_pass_games_RPTe65e598783111210205c75a6feaad34b</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-23 18:04:24</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpte65e598783111210205c75a6feaad34b" name="RPTe65e598783111210205c75a6feaad34b">f417965b83551210205c75a6feaad346</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

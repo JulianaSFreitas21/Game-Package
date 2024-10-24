@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7a3e61e083201210205c75a6feaad336" label="Games" max_length="40" name="x_668348_game_pass_games" type="collection">
+        <element choice="3" label="Classification" max_length="40" name="classification" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="6" sequence="0" value="6"/>
+                <element inactive_on_update="false" label="E" sequence="0" value="e"/>
+                <element inactive_on_update="false" label="EC" sequence="1" value="ec"/>
+                <element inactive_on_update="false" label="E10" sequence="2" value="e10"/>
+                <element inactive_on_update="false" label="T" sequence="3" value="t"/>
+                <element inactive_on_update="false" label="M" sequence="4" value="m"/>
+                <element inactive_on_update="false" label="A" sequence="5" value="a"/>
+            </choice>
+        </element>
+        <element label="Company" max_length="32" name="company" reference="x_668348_game_pass_company_games" type="reference"/>
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element label="Image" max_length="40" name="image" type="user_image"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Package" max_length="32" name="package" reference="x_668348_game_pass_package_games" type="reference"/>
+    </element>
+</database>

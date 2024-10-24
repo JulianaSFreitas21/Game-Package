@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.companies{
+  display: flex;
+  width: 100%
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>gp-companies</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Companies</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	data.companies = [];
+  var grCompanies = new GlideRecord('x_668348_game_pass_company_games');
+	grCompanies.query();
+	
+	while(grCompanies.next()){
+		data.companies.push({
+			name: grCompanies.getValue('name'),
+			image: grCompanies.getValue('image'),
+		});
+	}
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 19:01:45</sys_created_on>
+        <sys_id>73753c4b83741210205c75a6feaad3e5</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Companies</sys_name>
+        <sys_package display_value="Game Pass" source="x_668348_game_pass">e1fd2da083201210205c75a6feaad312</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_update_name>sp_widget_73753c4b83741210205c75a6feaad3e5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 14:29:23</sys_updated_on>
+        <template><![CDATA[<div class='companies'>
+  <div ng-repeat="company in data.companies" class='company-{{company.name}}'>
+    <p>{{company.name}}</p>
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

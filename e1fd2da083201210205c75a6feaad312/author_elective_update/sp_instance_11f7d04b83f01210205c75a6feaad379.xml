@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="3">d1f7d04b83f01210205c75a6feaad374</sp_column>
+        <sp_widget display_value="Approvals">f37aa302cb70020000f8d856634c9cfc</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 16:52:22</sys_created_on>
+        <sys_id>11f7d04b83f01210205c75a6feaad379</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>My Approvals</sys_name>
+        <sys_package display_value="Game Pass" source="x_668348_game_pass">e1fd2da083201210205c75a6feaad312</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_update_name>sp_instance_11f7d04b83f01210205c75a6feaad379</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 16:54:17</sys_updated_on>
+        <title>My Approvals</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"portal": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=11f7d04b83f01210205c75a6feaad379"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Game Pass">e1fd2da083201210205c75a6feaad312</application>
+        <file_path/>
+        <instance_id>3f966f79dbc9cad4ebdd2a5913961957</instance_id>
+        <instance_name>dev247447</instance_name>
+        <name>sp_instance_11f7d04b83f01210205c75a6feaad379</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;2&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="3"&gt;d1f7d04b83f01210205c75a6feaad374&lt;/sp_column&gt;&lt;sp_widget display_value="Approvals"&gt;f37aa302cb70020000f8d856634c9cfc&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-09-26 16:52:22&lt;/sys_created_on&gt;&lt;sys_id&gt;11f7d04b83f01210205c75a6feaad379&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;My Approvals&lt;/sys_name&gt;&lt;sys_package display_value="Game Pass" source="x_668348_game_pass"&gt;e1fd2da083201210205c75a6feaad312&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Game Pass"&gt;e1fd2da083201210205c75a6feaad312&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_11f7d04b83f01210205c75a6feaad379&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-09-26 16:54:17&lt;/sys_updated_on&gt;&lt;title&gt;My Approvals&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"portal": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=11f7d04b83f01210205c75a6feaad379"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1954879843</payload_hash>
+        <record_name>My Approvals</record_name>
+        <reverted_from/>
+        <source>65fd2da083201210205c75a6feaad317</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 16:54:17</sys_created_on>
+        <sys_id>51681c4b83f01210205c75a6feaad3c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1922f413c620000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 16:54:17</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>59681c4b9ef012108daef157f46694c3</update_guid>
+        <update_guid_history>59681c4b9ef012108daef157f46694c3:1954879843,d5f7d04beaf012103345e4427a65ee7a:1138992196</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="My Approvals">f988d04b83f01210205c75a6feaad3cb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 16:54:51</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>402957b72f6344ec936292156860ce90</sys_id>
+        <sys_metadata>11f7d04b83f01210205c75a6feaad379</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Approvals</sys_name>
+        <sys_package display_value="Game Pass" source="x_668348_game_pass">e1fd2da083201210205c75a6feaad312</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_scope_delete display_value="">57422b251c784308ae78ff703ba7f240</sys_scope_delete>
+        <sys_update_name>sp_instance_11f7d04b83f01210205c75a6feaad379</sys_update_name>
+        <sys_update_version display_value="sp_instance_11f7d04b83f01210205c75a6feaad379">51681c4b83f01210205c75a6feaad3c4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 16:54:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

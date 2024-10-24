@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 18:28:53</sys_created_on>
+        <sys_id>004ea1e083201210205c75a6feaad3c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_668348_game_pass_games.x_668348_game_pass.admin</sys_name>
+        <sys_package display_value="Game Pass" source="x_668348_game_pass">e1fd2da083201210205c75a6feaad312</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_security_acl display_value="x_668348_game_pass_games">484ea1e083201210205c75a6feaad3c5</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_004ea1e083201210205c75a6feaad3c8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 18:28:53</sys_updated_on>
+        <sys_user_role display_value="x_668348_game_pass.admin" name="x_668348_game_pass.admin">2dfd2da083201210205c75a6feaad31b</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

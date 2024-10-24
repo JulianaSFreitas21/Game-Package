@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e2fea12483201210205c75a6feaad3c0" label="Package Games" max_length="40" name="x_668348_game_pass_package_games" type="collection">
+        <element label="Number of games" max_length="40" name="number_of_games" read_only="true" type="integer"/>
+        <element label="Order" max_length="40" name="order" read_only="true" type="integer"/>
+        <element label="Price" max_length="40" name="price" type="price"/>
+        <element choice="3" display="true" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Diamond" sequence="0" value="5"/>
+                <element inactive_on_update="false" label="Gold" sequence="1" value="4"/>
+                <element inactive_on_update="false" label="Silver" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Bronze" sequence="3" value="2"/>
+                <element inactive_on_update="false" label="Simple" sequence="4" value="1"/>
+            </choice>
+        </element>
+    </element>
+</database>

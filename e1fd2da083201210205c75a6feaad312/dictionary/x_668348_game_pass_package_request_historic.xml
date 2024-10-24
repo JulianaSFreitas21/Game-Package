@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="df1eb96483601210205c75a6feaad3a8" label="Package Request Historic" max_length="40" name="x_668348_game_pass_package_request_historic" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Package" max_length="32" name="package" reference="x_668348_game_pass_package_games" type="reference"/>
+        <element label="Request" max_length="32" name="request" reference="x_668348_game_pass_package_request" type="reference"/>
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="package"/>
+        </index>
+        <index name="index2">
+            <element name="request"/>
+        </index>
+        <index name="index3">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

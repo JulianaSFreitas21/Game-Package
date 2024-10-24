@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated">
+    <sys_translated action="INSERT_OR_UPDATE">
+        <element>name</element>
+        <id/>
+        <label>Games - New Tab 2</label>
+        <language>en</language>
+        <name>pa_tabs</name>
+        <sys_class_name>sys_translated</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 18:00:50</sys_created_on>
+        <sys_id>1b8a632383951210205c75a6feaad396</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Games - New Tab 2</sys_name>
+        <sys_package display_value="Game Pass" source="x_668348_game_pass">e1fd2da083201210205c75a6feaad312</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_update_name>sys_translated_1b8a632383951210205c75a6feaad396</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 18:00:50</sys_updated_on>
+        <value>138a2fef83551210205c75a6feaad3dbGames - New Tab 2</value>
+    </sys_translated>
+</record_update>

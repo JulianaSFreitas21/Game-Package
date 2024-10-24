@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name>padding-top-lg</class_name>
+        <container_class_name/>
+        <name>Home - Game Pass - Container 2</name>
+        <order>2</order>
+        <semantic_tag/>
+        <sp_page display_value="homepage">3cf7580783f01210205c75a6feaad321</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 16:52:21</sys_created_on>
+        <sys_id>15f7d04b83f01210205c75a6feaad35e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Home - Game Pass - Container 2</sys_name>
+        <sys_package display_value="Game Pass" source="x_668348_game_pass">e1fd2da083201210205c75a6feaad312</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_update_name>sp_container_15f7d04b83f01210205c75a6feaad35e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 16:54:41</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Game Pass">e1fd2da083201210205c75a6feaad312</application>
+        <file_path/>
+        <instance_id>3f966f79dbc9cad4ebdd2a5913961957</instance_id>
+        <instance_name>dev247447</instance_name>
+        <name>sp_container_15f7d04b83f01210205c75a6feaad35e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name>padding-top-lg</class_name><container_class_name/><name>Home - Game Pass - Container 2</name><order>2</order><semantic_tag/><sp_page display_value="homepage">3cf7580783f01210205c75a6feaad321</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-26 16:52:21</sys_created_on><sys_id>15f7d04b83f01210205c75a6feaad35e</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Home - Game Pass - Container 2</sys_name><sys_package display_value="Game Pass" source="x_668348_game_pass">e1fd2da083201210205c75a6feaad312</sys_package><sys_policy/><sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope><sys_update_name>sp_container_15f7d04b83f01210205c75a6feaad35e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-26 16:54:41</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-436863740</payload_hash>
+        <record_name>Home - Game Pass - Container 2</record_name>
+        <reverted_from/>
+        <source>65fd2da083201210205c75a6feaad317</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 16:54:41</sys_created_on>
+        <sys_id>5378dc4b83f01210205c75a6feaad323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1922f4199640000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 16:54:41</sys_updated_on>
+        <type>Container</type>
+        <update_guid>5b78dc4bbff0121061860e31a7f4e622</update_guid>
+        <update_guid_history>5b78dc4bbff0121061860e31a7f4e622:-436863740,ad789c4b4cf01210d5cc2cd4c0951b59:-94968347,c318904bb5f0121064211f89c763afc0:-1716116504,d5f7d04bc7f01210015de3d2489ea65f:-544719166</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Home - Game Pass - Container 2">15e998cb83f01210205c75a6feaad341</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-26 17:00:50</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>1553613c29f54a8086d9c376c3fdf010</sys_id>
+        <sys_metadata>15f7d04b83f01210205c75a6feaad35e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Home - Game Pass - Container 2</sys_name>
+        <sys_package display_value="Game Pass" source="x_668348_game_pass">e1fd2da083201210205c75a6feaad312</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
+        <sys_scope_delete display_value="">57422b251c784308ae78ff703ba7f240</sys_scope_delete>
+        <sys_update_name>sp_container_15f7d04b83f01210205c75a6feaad35e</sys_update_name>
+        <sys_update_version display_value="sp_container_15f7d04b83f01210205c75a6feaad35e">5378dc4b83f01210205c75a6feaad323</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 17:00:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
