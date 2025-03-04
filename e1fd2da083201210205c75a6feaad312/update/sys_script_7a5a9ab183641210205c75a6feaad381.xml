@@ -28,11 +28,17 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
-	gs.addInfoMessage(current.package.type.getChoiceValueLang());
+	var query = 'package.type=0';
+
+	if (current.package.type != 0) {
+		for (var i = 0; i <= current.package.type; i++) {
+			query = query + '^ORpackage.type=' + i;
+        }
+    }
 
     var grGames = new GlideAggregate('x_668348_game_pass_games');
     grGames.addAggregate('COUNT');
-    grGames.addEncodedQuery('package=' + current.package);
+    grGames.addEncodedQuery(query);
     grGames.query();
 
     var countGames = 0;
@@ -41,7 +47,7 @@
     }
 
     var grPackage = new GlideRecord('x_668348_game_pass_package_games');
-    grPackage.addEncodedQuery('sys_idSTARTSWITH' + current.package);
+    grPackage.addEncodedQuery('type=' + current.package.type);
     grPackage.query();
 
     while (grPackage.next()) {
@@ -49,10 +55,18 @@
         grPackage.update();
     }
 
-	//Previous
-	var grGamesPrev = new GlideAggregate('x_668348_game_pass_games');
+    //Previous
+	var queryPrev = 'package.type=0';
+
+	if (previous.package.type != 0) {
+		for (var x = 0; x <= previous.package.type; x++) {
+			queryPrev = queryPrev + '^ORpackage.type=' + x;
+        }
+    }
+
+    var grGamesPrev = new GlideAggregate('x_668348_game_pass_games');
     grGamesPrev.addAggregate('COUNT');
-    grGamesPrev.addEncodedQuery('package=' + previous.package);
+    grGamesPrev.addEncodedQuery(queryPrev);
     grGamesPrev.query();
 
     var countGamesPrev = 0;
@@ -61,7 +75,7 @@
     }
 
     var grPackagePrev = new GlideRecord('x_668348_game_pass_package_games');
-    grPackagePrev.addEncodedQuery('sys_idSTARTSWITH' + previous.package);
+    grPackagePrev.addEncodedQuery('type=' + previous.package.type);
     grPackagePrev.query();
 
     while (grPackagePrev.next()) {
@@ -69,8 +83,8 @@
         grPackagePrev.update();
     }
 
-	var redirectLink = current.getLink(true)
-	gs.setRedirect(redirectLink);
+    var redirectLink = current.getLink(true);
+    gs.setRedirect(redirectLink);
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -79,7 +93,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7a5a9ab183641210205c75a6feaad381</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name>Number of Games</sys_name>
         <sys_overrides/>
         <sys_package display_value="Game Pass" source="x_668348_game_pass">e1fd2da083201210205c75a6feaad312</sys_package>
@@ -87,9 +101,20 @@
         <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
         <sys_update_name>sys_script_7a5a9ab183641210205c75a6feaad381</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-10 14:52:42</sys_updated_on>
+        <sys_updated_on>2025-02-23 22:52:37</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
     <sys_translated_text action="delete_multiple" query="documentkey=7a5a9ab183641210205c75a6feaad381"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>7a5a9ab183641210205c75a6feaad381</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-23 21:54:40</sys_created_on>
+        <sys_id>fb9bb9db83331210abbdce95eeaad345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-23 21:54:40</sys_updated_on>
+        <table>sys_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
 </record_update>
