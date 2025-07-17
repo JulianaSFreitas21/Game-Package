@@ -38,7 +38,7 @@
         <name>x_668348_game_pass_package_games</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>true</read_only>
+        <read_only>false</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -58,7 +58,7 @@
         <sys_scope display_value="Game Pass">e1fd2da083201210205c75a6feaad312</sys_scope>
         <sys_update_name>sys_dictionary_x_668348_game_pass_package_games_order</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-06 20:22:36</sys_updated_on>
+        <sys_updated_on>2025-02-23 21:59:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
